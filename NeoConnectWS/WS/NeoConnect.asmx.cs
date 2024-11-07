@@ -1126,7 +1126,8 @@ namespace NeoConnectWS.WS
         public string ConnectionString()
         {
 
-            string str = "Server = tcp: neoonline.database.windows.net,1433; Initial Catalog = NeoOnline; Persist Security Info = False; User ID = NeosinerjiDBManager@neoonline; Password = NeoSnrj2017); MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30;";
+            //string str = "Server = tcp: neoonline.database.windows.net,1433; Initial Catalog = NeoOnline; Persist Security Info = False; User ID = NeosinerjiDBManager@neoonline; Password = NeoSnrj2017); MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30;";
+            string str = "Server=QUANTUMXPS\\QUANTUMSQL; Database=NeoOnline; user id=sa; password='Quantum'; Connection Timeout=3600;";
 
             return str;
         }
